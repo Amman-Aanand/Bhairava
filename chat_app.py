@@ -167,7 +167,9 @@ st.components.v1.html(particles_js, height=0)
 st.title("Bhairava :trident:")
 st.write("नमस्कार!🙏")
 
-models = ["llama-3.1-70b-versatile", "llama-3.1-8b-instant"]
+models = ["llama-3.1-70b-versatile", "llama-3.1-8b-instant", "llama3-groq-70b-8192-tool-use-preview", 
+          "llama3-groq-8b-8192-tool-use-preview"]
+
 
 st.markdown("""
     <style>
