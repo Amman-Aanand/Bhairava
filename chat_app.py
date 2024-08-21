@@ -205,7 +205,7 @@ st.sidebar.info("🌟 *Tip*: For faster responses, select the **instant** models
 model = st.sidebar.selectbox(
     label="🧠 **Pick your model:**",
     options=models,
-    index=2
+    index=0
 )
 
 # Display the selected model in a creative way
