@@ -214,6 +214,8 @@ st.sidebar.write(f"**You’ve chosen:** `{model}`")
 clicked = st.sidebar.button("Clear Chat History")
 
 
+st.sidebar.text("Made with ❤️ by Aman")
+
 prompt = ChatPromptTemplate.from_messages(
     [
         ("system", "You are helpful assistant pretending to be Bhairava"),
